@@ -86,7 +86,8 @@
 .why_content{
     background: rgba(13, 19, 33, 0.03);
     border-radius: 16px;
-    padding: 74px 89px 64px 89px;
+    padding-top: 74px;
+    padding-bottom: 45px;
 }
 .why_content h2{
     text-align: center;
@@ -109,11 +110,12 @@
     align-items: center;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0.5) 100%);
     margin-bottom: 29px;
+    margin-left: 89px;
+    margin-right: 89px;
     border-radius: 16px;
 }
 .why_card_el{
     padding: 44px;
-    padding-right: 150px
 }
 .why_card_el h3{
     color: rgba(13, 19, 33, 0.7);
@@ -140,3 +142,37 @@
     color: rgba(13, 19, 33, 0.7);
     background: transparent;
 }
+
+/* inspire start */
+.inspire_section{
+    margin-top: 81px;
+    margin-bottom: 144px;
+}
+.inspire{
+    display: flex;
+    justify-content: center;
+}
+.inspire_content{
+    text-align: center;
+}
+.inspire_content h3{
+    font-size: 29px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+}
+.inspire_content p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 22px 132px 44px 132px;
+}
+.inspire_content_video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    padding: 29px;
+}
+.inspire_content_video iframe{
+    border-radius: 15px;
+}
+
