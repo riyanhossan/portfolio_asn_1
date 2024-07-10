@@ -288,7 +288,6 @@
 /* support start */
 .support_section{
     margin-top: 42px;
-    margin-bottom: 100px;
 }
 .support{
     display: flex;
@@ -339,4 +338,31 @@
     font-weight: 600;
     background: white;
     border: none;
+    cursor: pointer;
+}
+
+/* footer start */
+footer{
+    margin-top: 100px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    background: rgba(13, 19, 33, 0.03);
+    border-radius: 15px;
+    padding: 29px 0px;
+}
+.foot_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot_content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+.foot_content_right a{
+    text-decoration: none;
+    margin-left: 22px;
 }
